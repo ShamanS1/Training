@@ -1,0 +1,52 @@
+VENDOR
+Long vendorId
+string vendorName
+string city
+string ceo
+string founder
+long gstno
+string country
+string headquaters
+string website
+
+
+
+
+
+
+TRAINING
+
+private Long trainingId;
+string name
+    private List<String> skills = new ArrayList<>();
+    private LocalDate startDate;
+    private LocalDate endDate;
+    private Long numOfBatches;
+    private Long numOfStudentsPerBatch;
+    private String toc;
+    private Double budget;
+    private String vendorId;
+enum traineeType- lateral,fresher,employee
+string representative_name
+string representative_email
+string representative_phoneno
+enum status-upcoming,completed,onhold,inprogress
+
+
+
+TRAINER
+
+long trainerId
+string trainerName
+string phoneNum
+list trainingId
+string email
+list skills
+string experience
+list schudele
+enum trainerStatus - available,unavailable,booked
+enum salary- hourly , daily, monthly
+double minFee
+double maxFee
+
+
