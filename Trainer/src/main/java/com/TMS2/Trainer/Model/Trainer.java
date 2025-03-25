@@ -24,24 +24,19 @@ public class Trainer {
     private String phoneNo;
     private List<String> skills = new ArrayList<>();
     private String email;
-    private String experience;
-    //List<> schedule = new ArrayList<>();
-    private Double minFee;
-    private Double maxFee;
-    private String trainingId;
-
+    private Double budget;
     @Enumerated(EnumType.STRING)
     private TrainerStatus trainerStatus;
 
-    @Enumerated(EnumType.STRING)
-    private SalaryType salaryType;
+//    @Enumerated(EnumType.STRING)
+//    private SalaryType salaryType;
 
     public enum TrainerStatus {
         available, unavailable
     }
 
-    public enum SalaryType {
-        daily, weekly, monthly
-    }
+//    public enum SalaryType {
+//        daily, weekly, monthly
+//    }
 
 }
